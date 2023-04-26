@@ -50,6 +50,18 @@ app.get('/home',(req,res)=>{
     res.render('index')
 })
 
+app.get('/login',(req,res)=>{
+    res.render('Login')
+})
+
+app.get('/about', (req,res)=>{
+    res.render('about')
+})
+
+app.get('/contact',(req,res)=>{
+    res.render('contact')
+})
+
 // app.get('/home-login',(req,res)=>{
 //     // res.render('login-index')
 // })
