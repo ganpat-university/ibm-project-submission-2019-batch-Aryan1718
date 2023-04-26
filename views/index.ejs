@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/script.js"></script>
+    <script defer src="https://kit.fontawesome.com/49aa23c6c8.js" crossorigin="anonymous"></script>
+    <script type = "text/javascript" >
+        function preventBack(){window.history.forward();}
+         setTimeout("preventBack()", 0);
+         window.onunload=function(){null};
+     </script>
+</head>
+<body>
+    <section id="header">
+        <ul class="nav-bar">
+            <li><a href="../public/pages/Login.html">Login</a></li>
+            <li><a href="../public/pages/about.html">About Us</a></li>
+            <li><a href="../public/pages/contact.html">Contact Us</a></li>
+        </ul>
+    </section>
+    <section id="hero">
+        <h3 class="logo">Key-word Based Retrieval</h3>
+        
+        <form action="/api/result" method="post" class="search-bar">
+            <input type="text" name="usr_input" placeholder="search anything" id="usr_input_id">
+            <button type="submit">Search</button>
+        </form>
+        <!-- <ul class="nav-bar">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> -->
+    </section>
+    <!-- <section id="hero">
+        <h4 class="logo">Key-word Based Retrieval</h4>
+        <ul class="nav-bar">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">Abous us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </section> -->
+</body>
+</html>

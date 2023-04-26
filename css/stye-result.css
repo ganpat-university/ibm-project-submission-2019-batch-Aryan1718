@@ -1,0 +1,70 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    margin-top: 15px;
+    position: sticky;
+    top: 0;
+    right: 0;
+  } 
+  
+  #header .logo{
+    margin-left: 550px ;
+  } 
+  
+  .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-bar li{
+    list-style: none;
+    padding: 0 20px;
+  }
+  
+  .nav-bar a{
+    text-decoration: none;
+    color: #222;
+  }
+  
+  .nav-bar a:hover{
+    color: blueviolet;
+  } 
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+form{
+  background: white;
+  width: 600px;
+  height: 55px;
+  display: flex;
+}
+
+form input{
+  flex: 1;
+  border: 1px solid black;
+  outline: none;
+}
+
+form button{
+  margin-left: 2px;
+  background: tomato;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* .logo{
+  margin-top: -150px;
+  margin-right: -220px;
+} */
